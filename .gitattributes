@@ -1,0 +1,39 @@
+# -----------------------------------------
+# General: all files
+# -----------------------------------------
+* text=auto eol=lf
+
+# -----------------------------------------
+# Source code and configuration (text)
+# -----------------------------------------
+*.dart text
+*.yaml text
+*.json text
+*.md text
+*.svg text
+*.gradle text
+*.properties text
+*.proto text
+*.graphql text
+
+# -----------------------------------------
+# Binary files (never modify)
+# -----------------------------------------
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp3 binary
+*.mp4 binary
+*.ttf binary
+*.otf binary
+
+# -----------------------------------------
+# Generated files
+# -----------------------------------------
+*.g.dart linguist-generated=true
+
+# - This setup ensures:
+#   - All text files use LF endings
+#   - Binary files remain intact
+#   - Generated files are ignored in GitHub language stats
