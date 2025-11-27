@@ -1,0 +1,48 @@
+# -----------------------------------------
+# Miscellaneous / OS / temporary files
+# -----------------------------------------
+*.class           # Java compiled class files
+*.log             # Log files
+*.pyc             # Python compiled files (if any)
+*.swp             # Vim swap files
+.DS_Store         # MacOS system file
+.atom/             # Atom editor config
+.buildlog/         # Build logs
+.history           # Editor history files
+.svn/              # Subversion folders
+
+# -----------------------------------------
+# IDE / Editor files
+# -----------------------------------------
+*.iml              # IntelliJ project files
+*.ipr              # IntelliJ project files
+*.iws              # IntelliJ workspace files
+.idea/             # Android Studio / IntelliJ IDE folder
+.vscode/           # VSCode folder
+
+# -----------------------------------------
+# Flutter / Dart / Pub generated files
+# -----------------------------------------
+**/doc/api/        # Generated API docs
+.dart_tool/        # Dart tools folder
+.flutter-plugins   # Plugin registration file
+.packages          # Package resolution file
+.pub-cache/        # Local pub cache
+.pub/              # Local pub data
+build/             # Build output folder
+
+# -----------------------------------------
+# Android generated / local files
+# -----------------------------------------
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties  # local path to SDK
+**/android/**/GeneratedPluginRegistrant.java
+
+# -----------------------------------------
+# Exceptions / keeps
+# -----------------------------------------
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
