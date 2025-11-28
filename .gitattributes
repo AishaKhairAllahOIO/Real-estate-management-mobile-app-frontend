@@ -6,15 +6,16 @@
 # -----------------------------------------
 # Source code and configuration (text)
 # -----------------------------------------
-*.dart text
-*.yaml text
-*.json text
-*.md text
+*.dart text encoding=UTF-8
+*.yaml text encoding=UTF-8
+*.json text encoding=UTF-8
+*.md text encoding=UTF-8
 *.svg text
 *.gradle text
 *.properties text
 *.proto text
 *.graphql text
+pubspec.lock text
 
 # -----------------------------------------
 # Binary files (never modify)
@@ -27,6 +28,7 @@
 *.mp4 binary
 *.ttf binary
 *.otf binary
+*.webp binary
 
 # -----------------------------------------
 # Generated files
