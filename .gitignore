@@ -25,6 +25,7 @@
 # -----------------------------------------
 **/doc/api/        # Generated API docs
 .dart_tool/        # Dart tools folder
+.flutter-plugins-dependencies
 .flutter-plugins   # Plugin registration file
 .packages          # Package resolution file
 .pub-cache/        # Local pub cache
