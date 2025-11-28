@@ -5,7 +5,8 @@
 *.log             # Log files
 *.pyc             # Python compiled files (if any)
 *.swp             # Vim swap files
-.DS_Store         # MacOS system file
+*.DS_Store         # MacOS system file
+*.tmp
 .atom/             # Atom editor config
 .buildlog/         # Build logs
 .history           # Editor history files
@@ -31,6 +32,7 @@
 .pub-cache/        # Local pub cache
 .pub/              # Local pub data
 build/             # Build output folder
+.buildlog/
 
 # -----------------------------------------
 # Android generated / local files
@@ -42,6 +44,24 @@ build/             # Build output folder
 **/android/gradlew.bat
 **/android/local.properties  # local path to SDK
 **/android/**/GeneratedPluginRegistrant.java
+
+# -----------------------------------------
+# Firebase files
+# -----------------------------------------
+android/app/google-services.json
+# Keystore
+*.jks
+*.keystore
+
+# Env
+.env
+
+# =====================================================================
+# OTHER FILES (CACHES / TEMP)
+# =====================================================================
+**/Thumbs.db
+**/temp/
+**/*.tmp
 
 # -----------------------------------------
 # Exceptions / keeps
